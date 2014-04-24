@@ -1,5 +1,5 @@
-PROJECT=ARNDeferred.xcodeproj
-SCHEME=ARNDeferred
+PROJECT=ARNCoreDataAccessor.xcodeproj
+SCHEME=ARNCoreDataAccessor
 
 default: clean build
 
