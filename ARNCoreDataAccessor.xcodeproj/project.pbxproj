@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A72C86819091E7A00773554 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A72C86719091E7A00773554 /* Foundation.framework */; };
+		7A72C86D19091E7A00773554 /* ARNCoreDataAccessor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A72C86C19091E7A00773554 /* ARNCoreDataAccessor.h */; };
+		7A72C86F19091E7A00773554 /* ARNCoreDataAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A72C86E19091E7A00773554 /* ARNCoreDataAccessor.m */; };
+		7A72C87619091E7A00773554 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A72C87519091E7A00773554 /* XCTest.framework */; };
+		7A72C87719091E7A00773554 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A72C86719091E7A00773554 /* Foundation.framework */; };
+		7A72C87919091E7A00773554 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A72C87819091E7A00773554 /* UIKit.framework */; };
+		7A72C87C19091E7A00773554 /* libARNCoreDataAccessor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A72C86419091E7A00773554 /* libARNCoreDataAccessor.a */; };
+		7A72C88219091E7A00773554 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A72C88019091E7A00773554 /* InfoPlist.strings */; };
+		7A72C88419091E7A00773554 /* ARNCoreDataAccessorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A72C88319091E7A00773554 /* ARNCoreDataAccessorTests.m */; };
+		7A72C88E19091EBD00773554 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A72C88D19091EBD00773554 /* CoreData.framework */; };
+		7A72C88F19091EFC00773554 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A72C88D19091EBD00773554 /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A72C87A19091E7A00773554 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A72C85C19091E7A00773554 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A72C86319091E7A00773554;
+			remoteInfo = ARNCoreDataAccessor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7A72C86219091E7A00773554 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				7A72C86D19091E7A00773554 /* ARNCoreDataAccessor.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7A72C86419091E7A00773554 /* libARNCoreDataAccessor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libARNCoreDataAccessor.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A72C86719091E7A00773554 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7A72C86B19091E7A00773554 /* ARNCoreDataAccessor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ARNCoreDataAccessor-Prefix.pch"; path = "../ARNCoreDataAccessor-Prefix.pch"; sourceTree = "<group>"; };
+		7A72C86C19091E7A00773554 /* ARNCoreDataAccessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARNCoreDataAccessor.h; sourceTree = "<group>"; };
+		7A72C86E19091E7A00773554 /* ARNCoreDataAccessor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNCoreDataAccessor.m; sourceTree = "<group>"; };
+		7A72C87419091E7A00773554 /* ARNCoreDataAccessorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARNCoreDataAccessorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A72C87519091E7A00773554 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7A72C87819091E7A00773554 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7A72C87F19091E7A00773554 /* ARNCoreDataAccessorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARNCoreDataAccessorTests-Info.plist"; sourceTree = "<group>"; };
+		7A72C88119091E7A00773554 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A72C88319091E7A00773554 /* ARNCoreDataAccessorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARNCoreDataAccessorTests.m; sourceTree = "<group>"; };
+		7A72C88D19091EBD00773554 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A72C86119091E7A00773554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A72C88E19091EBD00773554 /* CoreData.framework in Frameworks */,
+				7A72C86819091E7A00773554 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A72C87119091E7A00773554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A72C88F19091EFC00773554 /* CoreData.framework in Frameworks */,
+				7A72C87619091E7A00773554 /* XCTest.framework in Frameworks */,
+				7A72C87C19091E7A00773554 /* libARNCoreDataAccessor.a in Frameworks */,
+				7A72C87919091E7A00773554 /* UIKit.framework in Frameworks */,
+				7A72C87719091E7A00773554 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A72C85B19091E7A00773554 = {
+			isa = PBXGroup;
+			children = (
+				7A72C86919091E7A00773554 /* ARNCoreDataAccessor */,
+				7A72C87D19091E7A00773554 /* ARNCoreDataAccessorTests */,
+				7A72C86619091E7A00773554 /* Frameworks */,
+				7A72C86519091E7A00773554 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A72C86519091E7A00773554 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A72C86419091E7A00773554 /* libARNCoreDataAccessor.a */,
+				7A72C87419091E7A00773554 /* ARNCoreDataAccessorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A72C86619091E7A00773554 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A72C88D19091EBD00773554 /* CoreData.framework */,
+				7A72C86719091E7A00773554 /* Foundation.framework */,
+				7A72C87519091E7A00773554 /* XCTest.framework */,
+				7A72C87819091E7A00773554 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A72C86919091E7A00773554 /* ARNCoreDataAccessor */ = {
+			isa = PBXGroup;
+			children = (
+				7A72C86C19091E7A00773554 /* ARNCoreDataAccessor.h */,
+				7A72C86E19091E7A00773554 /* ARNCoreDataAccessor.m */,
+				7A72C86A19091E7A00773554 /* Supporting Files */,
+			);
+			path = ARNCoreDataAccessor;
+			sourceTree = "<group>";
+		};
+		7A72C86A19091E7A00773554 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A72C86B19091E7A00773554 /* ARNCoreDataAccessor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A72C87D19091E7A00773554 /* ARNCoreDataAccessorTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A72C88319091E7A00773554 /* ARNCoreDataAccessorTests.m */,
+				7A72C87E19091E7A00773554 /* Supporting Files */,
+			);
+			path = ARNCoreDataAccessorTests;
+			sourceTree = "<group>";
+		};
+		7A72C87E19091E7A00773554 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A72C87F19091E7A00773554 /* ARNCoreDataAccessorTests-Info.plist */,
+				7A72C88019091E7A00773554 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A72C86319091E7A00773554 /* ARNCoreDataAccessor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A72C88719091E7A00773554 /* Build configuration list for PBXNativeTarget "ARNCoreDataAccessor" */;
+			buildPhases = (
+				7A72C86019091E7A00773554 /* Sources */,
+				7A72C86119091E7A00773554 /* Frameworks */,
+				7A72C86219091E7A00773554 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARNCoreDataAccessor;
+			productName = ARNCoreDataAccessor;
+			productReference = 7A72C86419091E7A00773554 /* libARNCoreDataAccessor.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7A72C87319091E7A00773554 /* ARNCoreDataAccessorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A72C88A19091E7A00773554 /* Build configuration list for PBXNativeTarget "ARNCoreDataAccessorTests" */;
+			buildPhases = (
+				7A72C87019091E7A00773554 /* Sources */,
+				7A72C87119091E7A00773554 /* Frameworks */,
+				7A72C87219091E7A00773554 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A72C87B19091E7A00773554 /* PBXTargetDependency */,
+			);
+			name = ARNCoreDataAccessorTests;
+			productName = ARNCoreDataAccessorTests;
+			productReference = 7A72C87419091E7A00773554 /* ARNCoreDataAccessorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A72C85C19091E7A00773554 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Airin.;
+			};
+			buildConfigurationList = 7A72C85F19091E7A00773554 /* Build configuration list for PBXProject "ARNCoreDataAccessor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7A72C85B19091E7A00773554;
+			productRefGroup = 7A72C86519091E7A00773554 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A72C86319091E7A00773554 /* ARNCoreDataAccessor */,
+				7A72C87319091E7A00773554 /* ARNCoreDataAccessorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A72C87219091E7A00773554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A72C88219091E7A00773554 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A72C86019091E7A00773554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A72C86F19091E7A00773554 /* ARNCoreDataAccessor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A72C87019091E7A00773554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A72C88419091E7A00773554 /* ARNCoreDataAccessorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A72C87B19091E7A00773554 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A72C86319091E7A00773554 /* ARNCoreDataAccessor */;
+			targetProxy = 7A72C87A19091E7A00773554 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A72C88019091E7A00773554 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A72C88119091E7A00773554 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A72C88519091E7A00773554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A72C88619091E7A00773554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A72C88819091E7A00773554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ARNCoreDataAccessor.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARNCoreDataAccessor-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7A72C88919091E7A00773554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ARNCoreDataAccessor.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARNCoreDataAccessor-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7A72C88B19091E7A00773554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARNCoreDataAccessor/ARNCoreDataAccessor-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ARNCoreDataAccessorTests/ARNCoreDataAccessorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7A72C88C19091E7A00773554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARNCoreDataAccessor/ARNCoreDataAccessor-Prefix.pch";
+				INFOPLIST_FILE = "ARNCoreDataAccessorTests/ARNCoreDataAccessorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A72C85F19091E7A00773554 /* Build configuration list for PBXProject "ARNCoreDataAccessor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A72C88519091E7A00773554 /* Debug */,
+				7A72C88619091E7A00773554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A72C88719091E7A00773554 /* Build configuration list for PBXNativeTarget "ARNCoreDataAccessor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A72C88819091E7A00773554 /* Debug */,
+				7A72C88919091E7A00773554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A72C88A19091E7A00773554 /* Build configuration list for PBXNativeTarget "ARNCoreDataAccessorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A72C88B19091E7A00773554 /* Debug */,
+				7A72C88C19091E7A00773554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A72C85C19091E7A00773554 /* Project object */;
+}
