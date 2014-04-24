@@ -1,6 +1,8 @@
 ARNCoreDataAccessor
 ===================
 
+[![Build Status](https://travis-ci.org/xxxAIRINxxx/ARNCoreDataAccessor.svg?branch=master)](https://travis-ci.org/xxxAIRINxxx/ARNCoreDataAccessor)
+
 Compact CoreData Access Class.
 
 It was influenced by MagicalRecord.
