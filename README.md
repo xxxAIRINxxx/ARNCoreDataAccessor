@@ -19,7 +19,7 @@ It was inspired by the following products.
 Requirements
 ============
 
-ARNDeferred requires iOS 6.0 and above, and uses ARC.
+Requires iOS 6.0 or later, and uses ARC.
 
 
 Licensing
