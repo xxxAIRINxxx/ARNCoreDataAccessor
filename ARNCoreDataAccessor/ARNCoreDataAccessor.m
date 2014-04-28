@@ -79,11 +79,14 @@ static NSString const *kManagedObjectContextKey = @"ARNManagedObjectContextForTh
 
 + (void)arn_rootContextChanged:(NSNotification *)notification
 {
+    if (notification.object != [self arn_rootSaveingContext]) {
+        return;
+    }
+    
     if (![NSThread isMainThread]) {
         dispatch_async(dispatch_get_main_queue(), ^{
             [self arn_rootContextChanged:notification];
         });
-        
         return;
     }
     
@@ -254,7 +257,6 @@ static NSString const *kManagedObjectContextKey = @"ARNManagedObjectContextForTh
 + (NSString *)arn_checkAndCreateDirectoryAtPath:(NSString *)path
 {
     if (![[NSFileManager defaultManager] fileExistsAtPath:path]) {
-        // ないので作る
         NSError *error = nil;
         if ([[NSFileManager defaultManager] createDirectoryAtPath:path
                                       withIntermediateDirectories:YES
